@@ -6,13 +6,17 @@ import sertifDimasTI from "../assets/img/SertifikatDimasTi.png";
 import CardPortfolio from "./card/CardPortfolio";
 function Sertifikat() {
   return (
-    <div style={{ background: "#FFD4D0" }} className="px-20 pb-16">
+    <div
+      style={{ background: "#FFD4D0" }}
+      className="px-20 pb-16"
+      id="Certificate"
+    >
       <div
         className="text-center text-3xl font-bold"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        Sertifikat
+        Certificate
       </div>
       <div
         className="grid md:grid-cols-3 gap-4 pt-4"

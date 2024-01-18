@@ -5,20 +5,20 @@ function NavBar() {
   return (
     <div className="flex justify-center ">
       <div className="text-sm ">
-        <ul className="flex pt-6 justify-center  p-4">
-          <a href="" className="font-bold">
+        <ul className="flex pt-6 justify-center font-semibold  p-4">
+          <a href="#home">
             <li>Home</li>
           </a>
-          <a href="">
-            <li className="px-9">Portfolio</li>
+          <a href="#about">
+            <li className="px-9">About Me</li>
           </a>
-          <a href="">
-            <li className="pe-9 ">About</li>
+          <a href="#project">
+            <li className="pe-9 ">Project</li>
           </a>
-          <a href="">
-            <li className="pe-9">Project</li>
+          <a href="#Certificate">
+            <li className="pe-9">Certificate</li>
           </a>
-          <a href="">
+          <a href="#contact">
             <li>Contact Me</li>
           </a>
         </ul>
