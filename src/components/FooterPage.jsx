@@ -12,7 +12,7 @@ function FooterComponent() {
         <div className="md:w-2/3 w-full px-4 text-white flex flex-col">
           <div className="w-full text-7xl font-bold">
             <h1 className="w-full md:w-2/3">
-              How can we help you. get in touch
+              How can i help you. get in touch
             </h1>
           </div>
           <div className="flex mt-8 flex-col md:flex-row md:justify-between">
@@ -40,10 +40,10 @@ function FooterComponent() {
                 About
               </a>
               <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">
-                Services
+                Project
               </a>
               <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">
-                Why us
+                Certificate
               </a>
               <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">
                 Contact
