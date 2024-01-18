@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa6";
+import { FaInstagram, FaYoutube, FaTiktok, FaLinkedin } from "react-icons/fa6";
 function FooterComponent() {
   return (
     <>
@@ -49,20 +49,18 @@ function FooterComponent() {
                 Contact
               </a>
               <div className="flex flex-row space-x-8 items-center justify-between">
-                <a href="https://www.instagram.com/clicunnes/">
+                <a href="https://www.instagram.com/naufalpratam4/">
                   <FaInstagram />
                 </a>
-                <a href="https://www.tiktok.com/@clicunnes">
-                  <FaTiktok />
-                </a>
-                <a href="https://www.youtube.com/@UKMCLICUNNES">
-                  <FaYoutube />
+
+                <a href="https://www.linkedin.com/in/naufaldarma/">
+                  <FaLinkedin />
                 </a>
               </div>
             </div>
             <hr className="border-gray-600" />
             <p className="w-full text-center my-12 text-gray-600">
-              Copyright © 2020 Naufal Pratama
+              Copyright © 2024 Naufal Pratama
             </p>
           </div>
         </div>
