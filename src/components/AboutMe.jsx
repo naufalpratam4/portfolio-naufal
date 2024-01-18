@@ -1,10 +1,10 @@
 import React from "react";
 import ImgAbout from "../assets/img/about.png";
-import AOS from "aos";
+
 import "aos/dist/aos.css";
 function AboutMe() {
   return (
-    <div className="md:pt-20 bg-stone-900 text-white  ">
+    <div className="md:pt-20 bg-stone-900 text-white" id="about">
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
@@ -15,20 +15,6 @@ function AboutMe() {
         <div className="md:px-80 text-center text-md font-normal pt-8 mb-8">
           {aboutMe}
         </div>
-        {/* <div className="grid md:grid-cols-3 md:px-32 md:gap-8 pt-4 text-center">
-          <div>
-            <div className="text-rose-200 text-6xl font-bold pb-2">10+</div>
-            <div>Projects Done</div>
-          </div>
-          <div>
-            <div className="text-rose-200 text-6xl font-bold pb-2">10+</div>
-            <div>Years of Experience</div>
-          </div>
-          <div>
-            <div className="text-rose-200 text-6xl font-bold pb-2">273+</div>
-            <div>Clients Served.</div>
-          </div>
-        </div> */}
       </div>
       <div className="flex justify-center pt-16 ">
         <img src={ImgAbout} alt="" className="" />

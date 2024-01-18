@@ -5,7 +5,7 @@ import portfolioLindungiHutan from "../assets/img/lindungiHutan.png";
 import portfolioCLIC from "../assets/img/CLIC.png";
 function Servicess() {
   return (
-    <div className="">
+    <div className="" id="project">
       <div className=" px-20 pb-4 ">
         <div
           className="font-bold text-3xl pt-16 text-center pb-4"
