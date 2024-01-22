@@ -2,7 +2,7 @@ import React from "react";
 import CardProject from "./card/CardProject";
 import portfolioImg from "../assets/img/portfolio.png";
 import portfolioLindungiHutan from "../assets/img/lindungiHutan.png";
-import portfolioCLIC from "../assets/img/CLIC.png";
+import recything from "../assets/img/recything.png";
 function Servicess() {
   return (
     <div className="" id="project">
@@ -24,13 +24,15 @@ function Servicess() {
               image={portfolioImg}
               title="Portfolio"
               desc="Website portfolio"
+              link="https://github.com/naufalpratam4/portfolio-naufal"
             />
           </div>
           <div>
             <CardProject
-              image={portfolioCLIC}
-              title="Web UKM CLIC"
+              image={recything}
+              title="Recything"
               desc="Website Unit Kegiatan Mahasiswa CLIC"
+              link="https://github.com/RecyThing/RecyThing-Web"
             />
           </div>
           <div>
@@ -38,6 +40,7 @@ function Servicess() {
               image={portfolioLindungiHutan}
               title="Lindungi Hutan"
               desc="Clone UI Website Lindungi Hutan "
+              link="https://github.com/naufalpratam4/clone-lindungi-hutan"
             />
           </div>
         </div>
