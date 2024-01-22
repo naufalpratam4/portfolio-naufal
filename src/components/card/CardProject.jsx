@@ -31,7 +31,7 @@ function CardProject(data) {
             </Stack>
           </CardBody>
           <CardFooter>
-            <a href="#">
+            <a href={data.link}>
               <ButtonCard icon={<FaGithub />} btnName="Github" />
             </a>
           </CardFooter>

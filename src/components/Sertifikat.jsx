@@ -28,16 +28,19 @@ function Sertifikat() {
           image={sertifAlterra}
           title="Alterra Academy"
           desc="2023 Complete Front-End Engineer Career with ReactJS"
+          modalImg={sertifAlterra}
         />
         <CardPortfolio
           image={sertifKrenova}
           title="Krenova"
           desc="JUARA 2 Kreativitas dan Inovasi Masyarakat (Krenova) Kota Semarang"
+          modalImg={sertifKrenova}
         />
         <CardPortfolio
           image={sertifDimasTI}
           title="Dimas TI"
           desc="JUARA 1 CABANG LOMBA PEMROGRAMAN KELAS B"
+          modalImg={sertifDimasTI}
         />
       </div>
     </div>
