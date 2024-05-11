@@ -1,8 +1,8 @@
 import React from "react";
 import CardProject from "./card/CardProject";
-import portfolioImg from "../assets/img/portfolio.png";
-import portfolioLindungiHutan from "../assets/img/lindungiHutan.png";
+import controllingmagang from "../assets/img/controllingmagang.png";
 import recything from "../assets/img/recything.png";
+import darmaPutraKos from "../assets/img/darmaPutraKos.png";
 function Servicess() {
   return (
     <div className="" id="project">
@@ -19,28 +19,28 @@ function Servicess() {
           data-aos="fade-up"
           data-aos-duration="2000"
         >
-          <div>
+          <div className="flex justify-between">
             <CardProject
-              image={portfolioImg}
-              title="Portfolio"
-              desc="Website portfolio"
-              link="https://github.com/naufalpratam4/portfolio-naufal"
+              image={darmaPutraKos}
+              title="Darma Putra Kos"
+              desc="Sistem Pengelola dan Promosi Kos"
+              link="https://github.com/naufalpratam4/darma-putra-kos"
             />
           </div>
           <div>
             <CardProject
               image={recything}
               title="Recything"
-              desc="Website Unit Kegiatan Mahasiswa CLIC"
+              desc="Website sistem pengelolaan sampah"
               link="https://github.com/RecyThing/RecyThing-Web"
             />
           </div>
           <div>
             <CardProject
-              image={portfolioLindungiHutan}
-              title="Lindungi Hutan"
-              desc="Clone UI Website Lindungi Hutan "
-              link="https://github.com/naufalpratam4/clone-lindungi-hutan"
+              image={controllingmagang}
+              title="Controlling Magang"
+              desc=" Sistem Pengelolaan Magang"
+              link="https://github.com/trimj/ControllingMagang"
             />
           </div>
         </div>

@@ -4,6 +4,7 @@ import sertifAlterra from "../assets/img/SertifikatAlterra.png";
 import sertifKrenova from "../assets/img/SertifikatKrenova.jpeg";
 import sertifDimasTI from "../assets/img/SertifikatDimasTi.png";
 import CardPortfolio from "./card/CardPortfolio";
+
 function Sertifikat() {
   return (
     <div
