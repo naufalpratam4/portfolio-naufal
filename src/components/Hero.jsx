@@ -82,7 +82,7 @@ function Hero() {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              <a href="https://w.app/pFyfZK">
+              <a href="wa.me/6285799857403">
                 <button className="py-2 px-6 rounded-xl bg-stone-900 text-white hover:bg-stone-700">
                   Contact Me
                 </button>
@@ -95,7 +95,7 @@ function Hero() {
               data-aos-easing="ease-in-out"
               data-aos-delay="200"
             >
-              <a href="https://drive.google.com/file/d/1HNGOr0OPn3_UFZTowMq4bAosZyAEFal7/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1LU1Yk-ipMu4TBe3eXGsaflb5QGgSqwaA/view?usp=sharing">
                 <button className="py-2 px-6 rounded-xl bg-white text-stone-900 hover:bg-gray-200 ms-2">
                   Download CV
                 </button>

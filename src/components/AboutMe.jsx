@@ -12,7 +12,7 @@ function AboutMe() {
         className="mb-9"
       >
         <div className="text-center text-3xl font-bold pt-5 ">About Me</div>
-        <div className="md:px-80 text-center text-md font-normal pt-8 mb-8">
+        <div className="md:px-72 text-center text-md font-normal pt-8 mb-8">
           {aboutMe}
         </div>
       </div>
@@ -24,5 +24,5 @@ function AboutMe() {
 }
 
 const aboutMe =
-  "Hello! I am a web developer who is an expert in React JS and also a photography freelancer. My combined passion for web development and photography creates a unique experience that I bring to every project. I believe that technical acumen and visual creativity are a powerful combination. Thank you for visiting my page, and let's collaborate to create something amazing!";
+  "Computer Science graduate with a strong interest in web development and backend systems. Experienced as a Backend Developer Intern, involved in the planning and development of several Laravel and MySQL-based projects. Accustomed to working in a team, understanding software development workflows, and able to adapt quickly to a technology-based work environment. Interested in continuous learning and contributing to creating efficient and impactful digital solutions.";
 export default AboutMe;
