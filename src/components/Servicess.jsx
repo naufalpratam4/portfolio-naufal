@@ -47,7 +47,15 @@ function Servicess() {
           </div>
         </div>
       </div>
-
+      <div
+        className="flex justify-center"
+       data-aos="fade-up"
+          data-aos-duration="2000"
+      >
+        <div className="text-xl py-2 hover:bg-gray-200 rounded-lg border px-4 cursor-pointer hover:text-blue-700 underline">
+          <a href="https://github.com/naufalpratam4">lainnya</a>
+        </div>
+      </div>
       {/* SVG footer */}
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
